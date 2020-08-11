@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+  font-family: Segoe UI;
+}
+
+.main-box {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.left-box {
+  width: 100%;
+  padding: 10px 30px;
+  border: 1px solid #ccc;
+  margin: 20px;
+  min-height: 105vh;
+}
+
+.right-box {
+  width: 100%;
+  padding: 10px 30px;
+  border: 1px solid #ccc;
+  margin: 20px;
+  height: 100vh;
+  align-items: center;
+  align-content: center;
+  position: relative;
+  overflow-y: hidden;
+}
+
+.left-box > h1 {
+  font-weight: bold;
+}
+
+.images {
+  width: 100%;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.im {
+  margin: 0 auto;
+  display: block;
+}
+
+.b {
+  width: 250px;
+  height: 250px;
+  padding: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -70px 0 0 -170px;
+}
